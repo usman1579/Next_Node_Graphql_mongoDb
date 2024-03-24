@@ -1,0 +1,22 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.1",
+    "graphql": "^16.8.1",
+    "graphql-http": "^1.22.0",
+    "mongodb": "^6.5.0",
+    "mongoose": "^8.2.3",
+    "ruru": "^2.0.0-beta.11"
+  }
+}

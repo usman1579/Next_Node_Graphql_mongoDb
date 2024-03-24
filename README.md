@@ -1,3 +1,27 @@
+<!-- Parking Project  -->
+
+This is the Parking Project for Users
+
+Technology Used
+
+Frontend --->
+Next.js
+Tailwind Css
+Graphql
+Apolloclient
+
+Backend --->
+Node.js
+Express.js
+Graphql
+Mongodb Atlas
+Mongoose
+
+
+Please set the enviromental variable in the .env file to start the project on backend 
+command  : npm run dev
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
