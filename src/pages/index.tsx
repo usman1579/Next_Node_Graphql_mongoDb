@@ -1,6 +1,6 @@
 import React from 'react';
 import { ApolloClient, InMemoryCache, ApolloProvider } from '@apollo/client';
-import ParkingList from './ParkingList';
+import { ParkingList }  from '../component/ParkingList';
 
 const Apolloclient = new ApolloClient({
   uri: 'http://localhost:4000/graphql',

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import CenteredLayout from '@/component/centeredLayout';
 import { Toggle } from '@/component/toggle';
 import { Header } from '@/component/Header';
@@ -12,7 +12,7 @@ interface IItem {
     value: boolean
 }
 
-const ParkingList: React.FC = () => {
+export const ParkingList: React.FC = () => {
 
     const { loading, error, data } = useQuery(listParking);
     const [updateParkingData] = useMutation(updateListData);
@@ -43,5 +43,3 @@ const ParkingList: React.FC = () => {
         </div>
     );
 }
-
-export default ParkingList;
