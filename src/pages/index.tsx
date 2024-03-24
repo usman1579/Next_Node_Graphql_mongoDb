@@ -1,8 +1,8 @@
 import React from 'react';
-import { ApolloClient, InMemoryCache, ApolloProvider, gql } from '@apollo/client';
+import { ApolloClient, InMemoryCache, ApolloProvider } from '@apollo/client';
 import ParkingList from './ParkingList';
 
-const client = new ApolloClient({
+const Apolloclient = new ApolloClient({
   uri: 'http://localhost:4000/graphql',
   cache: new InMemoryCache(),
 });
@@ -10,7 +10,7 @@ const client = new ApolloClient({
 
 const Home: React.FC = () => {
   return (
-    <ApolloProvider client={client}>
+    <ApolloProvider client={Apolloclient}>
       <ParkingList />
     </ApolloProvider>
   );

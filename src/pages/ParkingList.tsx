@@ -12,7 +12,7 @@ interface IItem {
     value: boolean
 }
 
-export const ParkingList: React.FC = () => {
+const ParkingList: React.FC = () => {
 
     const { loading, error, data } = useQuery(listParking);
     const [updateParkingData] = useMutation(updateListData);
@@ -43,3 +43,5 @@ export const ParkingList: React.FC = () => {
         </div>
     );
 }
+
+export default ParkingList;
